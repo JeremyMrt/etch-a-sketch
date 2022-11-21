@@ -3,8 +3,7 @@ body {
     box-sizing: border-box;
 }
 
-.header,
-.footer {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,8 +15,11 @@ body {
 
 .grid-container {
     display: grid;
-    /* grid-template-columns: repeat(4, 20px);
-    grid-template-rows: repeat(4, 20px); */
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 .one-box {
@@ -28,7 +30,7 @@ body {
 .footer {
     position: absolute;
     bottom: 0;
-    right: 35%;
+    text-align: center;
     font-size: 0.8em;
     font-style: italic;
 }
